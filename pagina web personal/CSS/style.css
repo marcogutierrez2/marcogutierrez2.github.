@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body {
+    background-color: rgb(14, 13, 13);
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+html{
+    scroll-behavior:smooth;
+}
+
+
+.box{
+    width: 800px;
+    background: rgb(14, 13, 13);
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: -5px;
+    color:white;
+    text-align: center;
+    border-radius: 50% ;
+}
+.box-img {
+    width: 310px;
+    border-radius: 50% 50% 50% 50%;
+   
+    
+}
+.marco h1 {
+    color:#ffb400;
+    border-bottom: 1px solid #ffb400;
+ 
+   
+   
+ 
+}
+    
+
+
+.marco span{
+    color:white;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+    font: 500 50px Montserrat;
+}
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.box p {
+    text-align: justify;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(246, 239, 239);
+}
+nav a{
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+
+
+header{
+   position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color:#ffb400;
+    
+    
+    
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    background-color: #ffb400;
+    justify-content: space-between;
+    padding: 20px; 
+    justify-content: flex-end;
+}
+.nav.active{
+    background: rgb(230, 230, 230);
+    opacity: 2.0;
+    padding: 20px;
+}
+.nav.active a:hover{
+    background: #ffb400;
+    color: white;
+}
+
+.menu{
+    display: flex;
+    justify-content:center;
+  
+}
+.menu li{
+    list-style: none;
+    margin: 10px;
+    
+}
+.menu li a{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+   
+
+}
+.menu li a:hover{
+    padding: 5px 10px;
+    background:whitesmoke;
+    color: black;
+    border-radius: 15px;
+}
+.logo img{
+    width: 110px;
+    height: 50px;
+    float: left;
+    margin-right: 730px;
+      
+ 
+}
+.scroll{
+    height: 100px;
+}
+
+
+
+
+
+.imagen{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 90vw;
+    align-items: center;
+    color: aliceblue;
+}
+.imagen img{
+    width: 600px;
+    border-radius: 15% 15% 15% 15%;
+    grid-template-columns:1/7;
+    padding: 5px;
+    
+
+}
+.marcocurriculum{
+    grid-column: 5/10;
+    padding: 1em;
+}
+.marcocurriculum h1{
+    color: #ffb400;
+    position: relative;
+	font: 500 40px Montserrat;
+}
+.marcocurriculum span{
+    color: white;;
+}
+.marco1{
+    height: 0px;
+    width: 0px;
+   color:white; 
+}
+.marcofoto :hover{
+    opacity: 0.5;
+    
+}
+
+.botondescarga{
+    padding: 20px;
+    text-decoration: none;
+    background:#ffb400; 
+    font-size: 20px;
+}
+.botondescarga h4{
+    color: white;
+}
+
+
+.marcocurriculum .botondescarga :hover {
+    color: rgb(249, 206, 126);
+}
+
+
+
+
+.box-port h1{
+    text-decoration: none;
+    color:#ffb400;
+    text-align: center;
+    position: relative;
+	font: 500 50px Montserrat;
+}
+    
+
+.portafolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+.box-port{
+    text-align: center;
+    color: white; 
+}
+
+.imagen1{
+    border-radius: 20px 20px 20px 20px;
+    width: 280px;
+    margin: 10px;
+}
+.imagen1 img{
+    width: 100%;
+
+}
+.imagen1 img:hover{
+    opacity: 0.5;
+    transform: scale(1.10);
+}
+.porfoliocolor span{
+    color:white;
+}
+
+
+.conocimiento h1{
+    text-align: center;
+    color: white;
+    font: 500 50px Montserrat;
+}
+.conocimiento span{
+    color: #ffb400;
+}
+
+.html{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    min-height: 10px;
+    justify-content:space-around;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+.formulario h1{
+    text-align: center;
+    color: white;
+    font: 300 40px Montserrat;
+}
+.formulario span{
+    color: #ffb400;
+}
+.formulario-form{
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px;
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 250px;
+    margin-top: 100px;
+}
+.formulario-form a{
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color:#ffb400;
+}
+.formulario-form a img{
+    margin-right: 10px;
+}
+
+
+.wsp{
+    width: 30px;
+    height: 30px;
+    
+}
+.gmail{
+    width: 30px;
+    height: 30px;
+}
+.formulario-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+    color: #ffb400;
+}
+.formulario-form h3{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.formulario-form form .campo,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 3px solid #ffb400 ;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.formulario-form form textarea{
+    max-width: 430px;
+    min-width: 430px;
+    min-height: 120px;
+    max-height: 130px;
+
+}
+.formulario-form .btn-enviar {
+    padding: 20px;
+    font-size: 21px;
+    border: none;
+    outline: 0px;
+    background: #ffb400;
+    color: aliceblue;
+    border-radius: 3px;
+   
+}
+.formulario-form .btn-enviar:hover {
+    background-color: rgb(249, 206, 126);
+}
+
+
+
+
+
+
+.redes-sociales{
+    list-style: none;
+    padding: 0;
+    background-color: cornsilk;
+    width: auto;
+    margin: auto;
+    transition: transform 0,4s;
+    text-align: center;
+}
+.redes-sociales :hover{
+    background-color:white;
+}
+
+.redes-sociales li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    
+}
+.redes-sociales li{
+    display: inline-block;
+    text-align: center;
+}
+.redes-sociales{
+    background-color: #ffb400;
+}
+.facebook{
+    width: 50px;
+    height: 50px;
+}
+.instagram{
+    width: 50px;
+    height: 50px;
+}
+
+.Linkedln{
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and  (max-width:800px){
+    .header  {
+        flex-direction: column;
+    }
+    .nav{
+        padding: 20px 0px;
+    }
+   .curriculum1{
+    flex-direction: column;
+   }
+    
+}
+
+
+
+
+
+
+
+
+
